@@ -9,17 +9,31 @@ const About = () => {
 
   return (
     <>
-      <nav className="md:h-screen " id="about">
-        <div className="pt-10 max-w-7xl w-11/12 mx-auto">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap -mx-4">
-              <div
-                className="w-full md:w-1/2 px-4 mb-8 md:mb-0"
-                data-aos="fade-up"
-                data-aos-duration="1300"
-              >
-                <h2 className="text-4xl font-bold mb-4">Quiénes somos</h2>
-                <p className="text-lg leading-relaxed">
+      <nav className="md:h-screen" id="about">
+        <div className="pt-14 max-w-7xl w-11/12 mx-auto max-md:pt-16 ">
+          <div data-aos="fade-up" data-aos-duration="1600">
+            <h2 className="text-4xl font-bold mb-6 text-center text-[#001457] max-md:mb-5 ">
+              Quiénes somos
+            </h2>
+            <div className="flex justify-center">
+              <p className="text-lg text-[#354659] md:w-2/3 text-justify">
+                Inversiones Inkato brinda servicios de consultoría en diferentes
+                tipos de especialidades relacionados a la industria del diseño y
+                la construcción, de igual manera brindamos soluciones
+                constructivas tales como remodelación, implementación,
+                construcción, y mantenimiento de diferentes tipos de
+                infraestructuras.
+              </p>
+            </div>
+          </div>
+
+          {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="mb-8" data-aos="fade-up" data-aos-duration="1300">
+              <h2 className="text-4xl font-bold mb-6 text-center text-[#001457] max-md:mb-5 ">
+                Quiénes somos
+              </h2>
+              <div className="">
+                <p className="text-lg text-[#354659] max-w-2xl w-full">
                   Somos una empresa de arquitectura comprometida con la
                   excelencia en el diseño y la innovación. Desde nuestra
                   fundación en 2005, hemos estado creando espacios excepcionales
@@ -28,50 +42,47 @@ const About = () => {
                   con las expectativas más altas de nuestros clientes.
                 </p>
               </div>
-              <div className="w-full md:w-1/2 px-4" data-aos="fade-up">
+            </div>
+            <div className="" data-aos="fade-up">
+              <div className="bg-red-400">
                 <img
                   src="https://st3.depositphotos.com/1007034/12671/i/450/depositphotos_126713306-stock-photo-architecture-project-in-progress.jpg"
                   alt="Equipo"
-                  className="rounded-lg shadow-lg"
+                  className="rounded-lg shadow-lg w-full h-full"
                 />
               </div>
             </div>
-            <div className="mt-16" data-aos="fade-up">
-              <h3 className="text-3xl font-bold mb-4">Nuestro equipo</h3>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST0V7fcsKsKHQ0iDrIS9o1VOzjIo0VNddR24ZGuln3nA&s"
-                    alt="Miembro del equipo"
-                    className="rounded-full w-24 h-24 mx-auto mb-4"
-                  />
-                  <h4 className="text-xl font-semibold mb-2">
-                    Nombre Apellido
-                  </h4>
-                  <p className="text-gray-600">Arquitecto principal</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KmtSaB4HlhstRs7iyD69rUdhT6xCsfpVCOAn7aRrJA&s"
-                    alt="Miembro del equipo"
-                    className="rounded-full w-24 h-24 mx-auto mb-4"
-                  />
-                  <h4 className="text-xl font-semibold mb-2">
-                    Nombre Apellido
-                  </h4>
-                  <p className="text-gray-600">Arquitecto de diseño</p>
-                </div>
-                <div className="bg-white rounded-lg shadow-lg p-6">
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwssTKlGwmr8lCsNNbNdQVUdils7wtdwU25MRaFp1QeQ&s"
-                    alt="Miembro del equipo"
-                    className="rounded-full w-24 h-24 mx-auto mb-4"
-                  />
-                  <h4 className="text-xl font-semibold mb-2">
-                    Nombre Apellido
-                  </h4>
-                  <p className="text-gray-600">Arquitecto paisajista</p>
-                </div>
+          </div> */}
+          {/* <div className="grid gap-10 max-md:gap-4 md:grid-cols-4"> */}
+          <div className="grid gap-10 max-md:gap-4 mt-16">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="p-4">
+                <p className="text-center">Calidad</p>
+                <p className="mt-5 ">
+                  Nuestros proyectos siempre buscan satisfacer sus necesidades
+                  del cliente
+                </p>
+              </div>
+              <div className="p-4  px-10">
+                <p className="text-center">Seguridad</p>
+                <p className="mt-5 ">
+                  Día a día nos esforzamos para desarrollar todas las
+                  actividades de una manera mas segura y confiable
+                </p>
+              </div>
+              <div className="py-4 px-10">
+                <p className="text-center">Compromiso</p>
+                <p className="mt-5">
+                  Desde el primer día se establece un vínculo sistemático para
+                  la escucha de todas sus necesidades.
+                </p>
+              </div>
+              <div className="py-4 px-10">
+                <p className="text-center">Adaptabilidad</p>
+                <p className="mt-5">
+                  Mantenemos una estrategia de negocio flexible concorde a las
+                  tendencias y necesidades del mercado
+                </p>
               </div>
             </div>
           </div>
