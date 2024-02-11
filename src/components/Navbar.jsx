@@ -16,7 +16,7 @@ const Navbar = () => {
       <nav className="absolute top-0 left-0 z-10 w-full flex items-center justify-between py-5 px-10 max-md:px-5 max-md:bg-[rgba(0,0,0,.1)]">
         <a href="#" className="text-2xl text-white font-bold">
           {/* <img className="w-20 h-14" src={LogoInkato} alt="" /> */}
-          <h1>INKATO</h1>
+          <h1>INKATOS</h1>
         </a>
 
         <input type="checkbox" id="check" />
