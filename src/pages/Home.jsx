@@ -41,9 +41,9 @@ const Home = () => {
             <p className="text-7xl max-md:text-4xl font-bold mb-4 block nav-link">
               INKATO
             </p>
-            <p className="text-7xl max-md:text-4xl font-bold mb-4 block sub-titulos">
+            {/* <p className="text-7xl max-md:text-4xl font-bold mb-4 block sub-titulos">
               CALIDAD TOTAL
-            </p>
+            </p> */}
 
             <button class="cursor-pointer bg-gray-800 px-4 py-4 rounded-full text-white tracking-wider animate-bounce mt-4">
               <svg
