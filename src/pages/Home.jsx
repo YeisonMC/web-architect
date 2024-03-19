@@ -1,5 +1,4 @@
 import React from "react";
-import ImageBody from "../assets/images/home/fondo-home.jpg";
 import HomeBackground from "../assets/images/home/home-background.png";
 import "../assets/styles/TipoGrafias.css";
 import Aos from "aos";
@@ -12,20 +11,6 @@ const Home = () => {
   return (
     <>
       <div className="">
-        {/* <div
-          className="h-screen bg-cover bg-center relative flex items-center justify-center"
-          style={{
-            backgroundImage: `url(${ImageBody})`,
-            filter: "brightness(0.6)",
-          }}
-        ></div> */}
-        {/* <div
-          className="h-screen bg-cover bg-center"
-          style={{
-            backgroundImage: `url(${ImageBody})`,
-            filter: "brightness(0.6)",
-          }}
-        ></div> */}
         <div
           className="h-screen bg-cover bg-center"
           style={{
@@ -60,7 +45,6 @@ const Home = () => {
                 ></path>
               </svg>
             </button>
-
             <p className="text-lg mt-5">
               Aquí encontrarás los mejores servicios de <br /> diseño
               arquitectónico para tu proyecto.

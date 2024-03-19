@@ -9,7 +9,7 @@ const Contact = () => {
     Aos.init();
   }, []);
   return (
-    <nav className="md:h-screen bg-slate-100" id="contact">
+    <nav className=" bg-slate-100" id="contact">
       <div className="pt-10 max-md:mb-10 max-w-7xl w-11/12 mx-auto">
         {/* <h1 className="text-3xl mb-7">Escríbenos</h1> */}
         <form

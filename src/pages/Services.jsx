@@ -2,7 +2,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <nav className="md:h-screen bg-slate-600" id="service">
+    <nav className=" bg-slate-600" id="service">
       <div className="pt-10 max-w-7xl w-11/12 mx-auto ">
         <div className="flex justify-between max-md:flex-col ">
           <div className="bg-violet-300 max-md:mx-auto max-md:mb-10">
