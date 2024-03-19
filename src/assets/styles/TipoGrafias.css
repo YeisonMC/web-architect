@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;200;300;400;500&display=swap&family=Diphylleia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@100;200;300;400;500&display=swap&family=Diphylleia&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -43,4 +43,33 @@ Great Vibes: Una fuente display con un estilo retro. */
   font-family: "Diphylleia", serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.mulish {
+  font-family: "Mulish", sans-serif;
+  font-weight: 900;
+}
+
+.top-css {
+  top: 40%;
+}
+
+.left-css {
+  left: 50vw;
+}
+
+@media (max-width: 1200px) {
+  div .left-css-responsive {
+    left: 40%;
+    /* background-color: aqua; */
+  }
+}
+
+.pruebn {
+  width: 95vw;
 }

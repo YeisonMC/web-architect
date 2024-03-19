@@ -1,6 +1,7 @@
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ControlCalidad from "../assets/images/about/control-de-calidad.png";
 
 const About = () => {
   React.useEffect(() => {
@@ -9,14 +10,15 @@ const About = () => {
 
   return (
     <>
-      <nav className="md:h-screen" id="about">
-        <div className="pt-14 max-w-7xl w-11/12 mx-auto max-md:pt-16 ">
+      <nav className="md:h-screen bg-[#0E1950]" id="about">
+        {/* <nav className="md:h-screen bg-[#001457]" id="about"> */}
+        <div className="pt-14 max-w-7xl w-11/12 mx-auto max-md:pt-16">
           <div data-aos="fade-up" data-aos-duration="1600">
-            <h2 className="text-4xl font-bold mb-6 text-center text-[#001457] max-md:mb-5 ">
+            <h2 className="text-4xl font-bold mb-6 text-center text-white max-md:mb-5 ">
               Quiénes somos
             </h2>
             <div className="flex justify-center">
-              <p className="text-lg text-[#354659] md:w-2/3 text-justify">
+              <p className="text-lg text-white md:w-2/3 text-justify">
                 Inversiones Inkato brinda servicios de consultoría en diferentes
                 tipos de especialidades relacionados a la industria del diseño y
                 la construcción, de igual manera brindamos soluciones
@@ -56,28 +58,31 @@ const About = () => {
           {/* <div className="grid gap-10 max-md:gap-4 md:grid-cols-4"> */}
           <div className="grid gap-10 max-md:gap-4 mt-16">
             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4">
-              <div className="p-4">
-                <p className="text-center">Calidad</p>
+              <div className="p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-xl">
+                <div className="flex flex-col items-center">
+                  <p>Calidad</p>
+                  <img className="w-20 mt-5" src={ControlCalidad} alt="" />
+                </div>
                 <p className="mt-5 ">
                   Nuestros proyectos siempre buscan satisfacer sus necesidades
                   del cliente
                 </p>
               </div>
-              <div className="p-4  px-10">
+              <div className="p-4 px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-xl">
                 <p className="text-center">Seguridad</p>
                 <p className="mt-5 ">
                   Día a día nos esforzamos para desarrollar todas las
                   actividades de una manera mas segura y confiable
                 </p>
               </div>
-              <div className="py-4 px-10">
+              <div className="py-4 px-4  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-xl">
                 <p className="text-center">Compromiso</p>
                 <p className="mt-5">
                   Desde el primer día se establece un vínculo sistemático para
                   la escucha de todas sus necesidades.
                 </p>
               </div>
-              <div className="py-4 px-10">
+              <div className="py-4 px-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] bg-white rounded-xl">
                 <p className="text-center">Adaptabilidad</p>
                 <p className="mt-5">
                   Mantenemos una estrategia de negocio flexible concorde a las

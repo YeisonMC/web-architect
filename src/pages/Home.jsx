@@ -1,9 +1,10 @@
 import React from "react";
-import ImageBody from "../assets/images/home/fondo-home.jpg";
-import HomeBackground from "../assets/images/home/home-background.png";
+import HomeBackground from "../assets/images/home/home-background.jpeg";
+// import HomeBackground2 from "../assets/images/home/background-image2.jpeg";
 import "../assets/styles/TipoGrafias.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import LogoInkato from "../assets/images/home/logo.png";
 
 const Home = () => {
   React.useEffect(() => {
@@ -11,18 +12,12 @@ const Home = () => {
   }, []);
   return (
     <>
+      <img className="fixed w-32" src={LogoInkato} alt="" />
       <div className="">
         {/* <div
           className="h-screen bg-cover bg-center relative flex items-center justify-center"
           style={{
-            backgroundImage: `url(${ImageBody})`,
-            filter: "brightness(0.6)",
-          }}
-        ></div> */}
-        {/* <div
-          className="h-screen bg-cover bg-center"
-          style={{
-            backgroundImage: `url(${ImageBody})`,
+            backgroundImage: `url(${HomeBackground})`,
             filter: "brightness(0.6)",
           }}
         ></div> */}
@@ -30,22 +25,23 @@ const Home = () => {
           className="h-screen bg-cover bg-center"
           style={{
             backgroundImage: `url(${HomeBackground})`,
-            filter: "brightness(0.6)",
+            filter: "brightness(0.9)",
           }}
         ></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-          <div data-aos="fade-up" data-aos-duration="2000">
+        {/* TOP 1/2 LEFT 1/2 = 50% */}
+        {/* <div className="absolute top-css left-css left-css-responsive transform -translate-x-1/2 -translate-y-1/2 text-white"> */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white text-center">
+          <div className="pruebn" data-aos="fade-up" data-aos-duration="2000">
             <p className="text-xl max-md:text-4xl font-bold mb-8 block titulos">
               BIENVENIDO
             </p>
-            <p className="text-7xl max-md:text-4xl font-bold mb-4 block nav-link">
-              INKATO
+            <p className="text-7xl max-md:text-5xl mb-4 block mulish  text-white">
+              Garantia de trabajo
             </p>
-            {/* <p className="text-7xl max-md:text-4xl font-bold mb-4 block sub-titulos">
-              CALIDAD TOTAL
-            </p> */}
-
-            <button class="cursor-pointer bg-gray-800 px-4 py-4 rounded-full text-white tracking-wider animate-bounce mt-4">
+            <p className="text-7xl max-md:text-5xl mb-4 block mulish   text-white">
+              Con calidad!
+            </p>
+            <button class="cursor-pointer bg-[#0E1950] px-4 py-4 rounded-full text-white tracking-wider animate-bounce mt-4">
               <svg
                 class="w-5 h-5"
                 stroke="currentColor"
@@ -61,7 +57,7 @@ const Home = () => {
               </svg>
             </button>
 
-            <p className="text-lg mt-5">
+            <p className="text-lg mt-5 montserrat">
               Aquí encontrarás los mejores servicios de <br /> diseño
               arquitectónico para tu proyecto.
             </p>
